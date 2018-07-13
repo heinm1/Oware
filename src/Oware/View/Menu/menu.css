@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'SFLight';
+    src: url('/Oware/View/Fonts/SF-UI-Display-Ultralight.ttf');
+}
+
+.title {
+    -fx-font-family: "SFLight";
+    -fx-font-size: 60;
+    -fx-padding: 0 0 100 0;
+}
+.btn {
+    -fx-padding: 5;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+}
+.btn:hover {
+    -fx-border-color: #303030;
+}
+
+.cont {
+    -fx-padding: 100 150 100 150;
+}

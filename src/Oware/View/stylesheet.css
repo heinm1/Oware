@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'SFLight';
+    src: url('/Oware/View/Fonts/SF-UI-Display-Ultralight.ttf');
+}
+
+.gameWindow {
+    -fx-background: #161616;
+    -fx-padding: 0 20 0 20;
+}
+
+.housesGrid {
+    -fx-padding: 20px;
+    -fx-border-insets: 20px;
+    -fx-background-insets: 20px;
+}
+
+.houseActive {
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 100;
+    -fx-border-color: white;
+}
+.container{
+    -fx-padding: -20 0 0 0;
+}
+.btn {
+    -fx-padding: 5;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 10;
+    -fx-border-color: white;
+    -fx-cursor: hand;
+}
+.btn:hover {
+    -fx-border-color: #303030;
+}
+
+.houseActive:hover{
+    -fx-border-color: #1B65C4;
+}
+
+.houseInactive {
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 100;
+    -fx-border-color: #303030;
+}
+.houseVictoryActive {
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 100;
+    -fx-border-color: white;
+    -fx-cursor: hand;
+}
+
+.houseVictoryInactive {
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-insets: 5;
+    -fx-border-radius: 100;
+    -fx-border-color: #303030;
+}
+
+.seedLabelActive {
+    -fx-font-family: "SFLight";
+    -fx-font-size: 15;
+}
+
+.seedLabelInactive {
+    -fx-font-family: "SFLight";
+    -fx-font-size: 15;
+    -fx-text-color: #303030;
+}
+
+.seed {
+    -fx-padding: 10;
+    -fx-border-style: solid inside;
+    -fx-border-width: 3;
+    -fx-border-insets: 5;
+    -fx-border-radius: 100;
+    -fx-border-color: white;
+}
+
+.houseCircle {
+    -fx-padding: 20 0 -10 20;
+}
+
+.pointLabelActive {
+    -fx-font-family: "SFLight";
+    -fx-font-size: 50;
+    -fx-fill: white;
+}
+
+.pointLabelInactive {
+    -fx-font-family: "SFLight";
+    -fx-font-size: 50;
+    -fx-fill: #303030;
+}
+
+.seedStatusActive {
+    -fx-fill: white
+}
+
+.seedStatusInactive {
+    -fx-fill: #303030;
+}
+
+.resultsText {
+    -fx-font-size: 40;
+}
